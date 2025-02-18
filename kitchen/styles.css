@@ -1,0 +1,923 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#maintext {
+    text-align: center;
+    line-height: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#window {
+    position: absolute
+}
+
+#paneswap1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+  }
+  
+#paneswap1:hover {
+    background-image: url("S1.png");
+}
+
+#paneswap2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-1deg);
+}
+  
+#paneswap2:hover {
+    background-image: url("A.png");
+}
+
+#paneswap3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
+#paneswap3:hover {
+    background-image: url("Y1.png");
+}
+
+#paneswap4 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-1deg);
+}
+  
+#paneswap4:hover {
+    background-image: url("Y2.png");
+}
+
+#paneswap5 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-2deg);
+}
+
+#paneswap5:hover {
+    background-image: url("E.png");
+}
+
+#paneswap6 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+  
+#paneswap6:hover {
+    background-image: url("S2.png");
+}
+
+#paneswap7 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap7:hover {
+    background-image: url("gooutagain.png");
+}
+
+#paneswap8 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap8:hover {
+    background-image: url("youshould.png");
+}
+
+#paneswap9 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap9:hover {
+    background-image: url("goout.png");
+}
+
+#curtainleft {
+    position: absolute;
+    top: 20px;
+    right: 900px;
+}
+
+#curtainright {
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+#subtext1 {
+    text-align: center;
+    line-height: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link { color: black; text-decoration: none; }
+a:visited { color: black; text-decoration: none; }
+a:hover { color: black; text-decoration: underline; }
+a:active { color: black; text-decoration: underline; }
+
+#box {
+    position: relative;
+    width: 1400px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+  
+#footprintsbox1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 47.8%;
+    top: -7%;
+}
+#footprints1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(140deg);
+} 
+#footprints1:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 46%;
+}
+#footprints2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+} 
+#footprints2:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 43%;
+    top: 5%;
+}
+#footprints3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(220deg);
+} 
+#footprints3:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox4 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 39%;
+    top: 7%;
+}
+#footprints4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(230deg);
+} 
+#footprints4:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox5 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 35%;
+    top: 7%;
+}
+#footprints5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(250deg);
+} 
+#footprints5:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox6 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 32%;
+    top: 4%;
+}
+#footprints6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(270deg);
+} 
+#footprints6:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox7 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 28%;
+    top: 2%;
+}
+#footprints7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(250deg);
+} 
+#footprints7:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox8 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 25%;
+    top: 2%;
+}
+#footprints8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(230deg);
+} 
+#footprints8:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox9 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 22%;
+    top: 5%;
+}
+#footprints9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(205deg);
+} 
+#footprints9:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox10 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20%;
+    top: 12%;
+}
+#footprints10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(170deg);
+} 
+#footprints10:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox11 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20%;
+    top: 20%;
+}
+#footprints11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(140deg);
+} 
+#footprints11:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox12 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 21%;
+    top: 25%;
+}
+#footprints12 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(120deg);
+} 
+#footprints12:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox13 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 25%;
+    top: 28%;
+}
+#footprints13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);
+} 
+#footprints13:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox14 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 29%;
+    top: 29%;
+}
+#footprints14 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(70deg);
+} 
+#footprints14:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox15 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 34%;
+    top: 30%;
+}
+#footprints15 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(65deg);
+} 
+#footprints15:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox16 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 39%;
+    top: 30%;
+}
+#footprints16 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(60deg);
+} 
+#footprints16:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox17 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 43%;
+    top: 31%;
+}
+#footprints17 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(65deg);
+} 
+#footprints17:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox18 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 45%;
+    top: 39%;
+}
+#footprints18 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(97deg);
+} 
+#footprints18:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox19 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 46%;
+    top: 47%;
+}
+#footprints19 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(137deg);
+} 
+#footprints19:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox20 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 45%;
+    top: 55%;
+}
+#footprints20 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(165deg);
+} 
+#footprints20:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox21 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 42%;
+    top: 60%;
+}
+#footprints21 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(190deg);
+} 
+#footprints21:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox22 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 39%;
+    top: 65%;
+}
+#footprints22 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(210deg);
+} 
+#footprints22:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#footprintsbox23 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 35%;
+    top: 66%;
+}
+#footprints23 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(240deg);
+} 
+#footprints23:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#home {
+    position: absolute;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60px;
+    height: 60px;
+    left: 30%;
+    top: 62%; 
+}
+
+h1 a:link { color: white; text-decoration: none; }
+
+#badfootprintsbox1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 46%;
+    top: 33%;
+}
+#badfootprints1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(60deg);
+} 
+#badfootprints1:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 49%;
+    top: 33%;
+}
+#badfootprints2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(55deg);
+} 
+#badfootprints2:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 53%;
+    top: 31%;
+}
+#badfootprints3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(50deg);
+} 
+#badfootprints3:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox4 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 56%;
+    top: 28%;
+}
+#badfootprints4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(30deg);
+} 
+#badfootprints4:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox5 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 58%;
+    top: 25%;
+}
+#badfootprints5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(10deg);
+} 
+#badfootprints5:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox6 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 60%;
+    top: 20%;
+}
+#badfootprints6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(22deg);
+} 
+#badfootprints6:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox7 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 63%;
+    top: 17%;
+}
+#badfootprints7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(30deg);
+} 
+#badfootprints7:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox8 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 68%;
+    top: 18%;
+}
+#badfootprints8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(70deg);
+} 
+#badfootprints8:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox9 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 71%;
+    top: 22%;
+}
+#badfootprints9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(110deg);
+} 
+#badfootprints9:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#badfootprintsbox10 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 72%;
+    top: 30%;
+}
+#badfootprints10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(140deg);
+} 
+#badfootprints10:hover {
+    background-image: url("footprints.jpeg");
+}
+
+#trap {
+    position: absolute;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60px;
+    height: 60px;
+    left: 72%;
+    top: 37%; 
+}
+
+#beartrapbackground {
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0), rgb(173, 57, 57) 100%);
+    pointer-events: none;
+}
+
+.redirect {
+  left: 3%;
+  bottom: 3%;
+}
+
+#backbuttonoff {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 20px;
+    bottom: 5px;
+    background-image: url("backbutton_off.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+
+#backbuttonbox {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#backbutton {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url("backbutton.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:backbuttonanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes backbuttonanimation {
+    from {background-position: 0 0;}
+    to {background-position: 0 -195px;}
+}
+
+#backbuttonoff:hover > #backbuttonbox {
+    opacity: 1;
+}
+
+/* New CSS */
+#visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adds space between text and image */
+}
+
+#visual img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+}

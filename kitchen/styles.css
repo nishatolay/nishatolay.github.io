@@ -921,3 +921,44 @@ h1 a:link { color: white; text-decoration: none; }
     height: auto;
     display: block;
 }
+
+.smallimage {
+    width: 300px;
+}
+
+#defaultW {
+    position: absolute;
+    clip-path: polygon (10% 10%, 50% 0%, 50% 100%, 10% 90%, 0% 50%);
+}
+
+#defaultR {
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 10%, 100% 50%, 90% 90%, 50% 100%);
+}
+
+.hoverW {
+    opacity: 0; 
+    width: 300px;
+    position: absolute;
+    /* text-align: center; */
+    margin: 0 auto;
+    pointer-events: none;
+    /* left: 5px; top: 0; */
+}
+.hoverR {
+    opacity: 0; 
+    width: 300px;
+    /* background-color: blue; */
+    position: absolute;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+#defaultW:hover~.hoverW {
+    opacity: 1;
+}
+
+#defaultR:hover~.hoverR {
+    opacity: 1;
+}
+

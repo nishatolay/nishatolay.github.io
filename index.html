@@ -73,5 +73,38 @@
       </div>
     </div>
   </div>
+
+  <script>
+  const plaque = document.getElementById("plaque");
+
+  const framePlaques = {
+    f1: "images/p1.1 conflict.png",
+    f2: "images/p1.2 conflict.png",
+    f3: "images/p1.3 conflict.png",
+    f4: "images/p2.1 conflict.png",
+    f5: "images/p2.2 conflict.png",
+    f6: "images/p2.3 conflict.png",
+    f7: "images/p3.1 conflict.png",
+    f8: "images/p3.2 conflict.png",
+    f9: "images/p3.3 conflict.png",
+    "reading-stand": "images/pr.r.png"
+  };
+
+  Object.keys(framePlaques).forEach(id => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.addEventListener("mouseenter", () => {
+        plaque.src = framePlaques[id];
+      });
+      element.addEventListener("mouseleave", () => {
+        plaque.src = "images/name_plaque.png"; // reset
+      });
+    }
+  });
+</script>
+
+
+
+
 </body>
 </html>

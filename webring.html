@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Section 2 Assignment 1 - Web Ring</title>
+  <link rel="stylesheet" href="readings.css" />
+  <style>
+    #webring-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      gap: 80px;
+    }
+
+    .webring-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 200px;
+    }
+
+    .webring-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .webring-side p {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 1rem;
+      color: #2c1b10;
+    }
+  </style>
+</head>
+<body>
+  <div id="wholewrapper">
+    <div id="spacer"></div>
+
+    <div class="insideme_wrapper">
+      <div id="piece_header">
+        Section 2 Assignment 1 - <div id="piece_title">The Web Ring</div>
+      </div>
+
+      <div id="description">
+        As a class, we collaborated to create a Web Ring — a modular design that links all of our Section 1 Final Projects in a continuous loop. This Web Ring serves as a creative, interconnected network of our individual websites.
+
+        <br><br>
+        My project was about blueberry muffins and chocolate chip cookies, so I customized my Web Ring element accordingly. The left side of the Web Ring features chocolate chip cookies, and the right side features blueberries.
+      </div>
+
+      <div id="webring-container">
+        <div class="webring-side">
+          <img src="images/Screenshot_cookies.png" alt="Chocolate Chip Cookies">
+          <p>Previous site</p>
+        </div>
+
+        <div class="webring-side">
+          <img src="images/Screenshot_blueberries.png" alt="Blueberries">
+          <p>Next site</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="spacer"></div>
+  </div>
+</body>
+</html>

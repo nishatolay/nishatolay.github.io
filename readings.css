@@ -1,0 +1,67 @@
+/* readings.css */
+
+body {
+  background-color: #f5d273;
+  color: #2c1b10;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+#wholewrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.insideme_wrapper {
+  margin-bottom: 60px;
+}
+
+#piece_header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #820e1a;
+}
+
+#piece_title {
+  font-weight: 700;
+  font-style: italic;
+  color: #45080e;
+}
+
+#description {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+#description ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#description ul li {
+  margin-bottom: 8px;
+}  
+
+#description a {
+  color: #694f2b;
+  text-decoration: underline;
+}
+
+#spacer {
+  height: 40px;
+}  
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  #piece_header {
+    flex-direction: column;
+  }
+}

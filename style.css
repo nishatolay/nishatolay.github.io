@@ -1,108 +1,132 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
-  background-image: url('images/aow_background.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: top left;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  background-color: #f5d273;
+  overflow-x: auto;  /* allow horizontal scroll if screen is too small */
+}
+
+#homepage {
+  width: 100%;
+  height: auto;
+}
+
+#framecontainer-wrapper {
   position: relative;
+  width: 100vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
+#framecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-.button-frame {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+/* ✅ Fixed layout width — no scaling */
+#base_wrapper {
+  position: relative;
+  width: 1400px; /* Match this to the width your frame image was designed in */
+  margin: 0 auto;
+}
+
+#frame {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#plaquewrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -200px;  /* move upward — adjust as needed */
+  z-index: 2;
+}
+
+#plaque {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+/* Frame setup */
+.wall-frame {
   position: absolute;
-  cursor: pointer;
-  pointer-events: auto;
-}
-
-/* === Button Placement (you can tweak these positions) === */
-
-#button-read {
-  top: 100px;
-  left: 110px;
-  width: 350px;
-  height: 350px;
-  background-image: url('images/readingsButton.png');
-}
-
-/* Row 1 */
-#button-1-1 {
-  top: 100px;
-  left: 825px;
   width: 120px;
-  height: 120px;
-  background-image: url('images/1.1Button.png');
+  transition: transform 0.3s ease;
 }
 
-#button-1-2 {
-  top: 100px;
-  left: 975px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/1.2Button.png');
+.wall-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-#button-1-3 {
-  top: 100px;
-  left: 1125px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/1.3Button.png');
+.wall-frame .hover-img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
-/* Row 2 */
-#button-2-1 {
-  top: 260px;
-  left: 825px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/2.1Button.png');
+.wall-frame:hover .hover-img {
+  opacity: 1;
 }
 
-#button-2-2 {
-  top: 260px;
-  left: 975px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/2.2Button.png');
+.wall-frame:hover .default {
+  opacity: 0;
 }
 
-#button-2-3 {
-  top: 260px;
-  left: 1125px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/2.3Button.png');
+/* Placement stays fixed! */
+#f1 { top: 170px; left: 690px; }
+#f2 { top: 170px; left: 810px; }
+#f3 { top: 170px; left: 930px; }
+#f4 { top: 310px; left: 690px; }
+#f5 { top: 310px; left: 810px; }
+#f6 { top: 310px; left: 930px; }
+#f7 { top: 450px; left: 690px; }
+#f8 { top: 450px; left: 810px; }
+#f9 { top: 450px; left: 930px; }
+
+#reading-stand {
+  position: absolute;
+  top: 450px;
+  left: 320px;
+  width: 300px;
 }
 
-/* Row 3 */
-#button-3-1 {
-  top: 420px;
-  left: 825px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/3.1Button.png');
+#reading-stand img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
 }
 
-#button-3-2 {
-  top: 420px;
-  left: 975px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/3.2Button.png');
+#reading-stand .hover-img {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
 }
 
-#button-3-3 {
-  top: 420px;
-  left: 1125px;
-  width: 120px;
-  height: 120px;
-  background-image: url('images/3.3Button.png');
+#reading-stand .default {
+  opacity: 1;
+  z-index: 1;
 }
+
+#reading-stand:hover .hover-img {
+  opacity: 1;
+}
+
+#reading-stand:hover .default {
+  opacity: 0;
+}
+
+
 
